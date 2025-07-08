@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "name": "Modern Family Home",
+    "floorArea": 180,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garageSpaces": 2,
+    "estimatedPrice": 485000,
+    "description": "Contemporary family home with open plan living, master suite, and modern kitchen. Perfect for growing families with excellent indoor-outdoor flow.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Luxury Executive Home",
+    "floorArea": 280,
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "garageSpaces": 3,
+    "estimatedPrice": 750000,
+    "description": "Impressive executive home with premium finishes, multiple living areas, and spacious master suite. Designed for entertaining and family living.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "createdAt": "2024-01-12T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Compact Starter Home",
+    "floorArea": 120,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "garageSpaces": 1,
+    "estimatedPrice": 320000,
+    "description": "Efficient design perfect for first home buyers. Smart layout maximizes space with quality finishes and modern conveniences.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "createdAt": "2024-01-08T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Architectural Masterpiece",
+    "floorArea": 320,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "garageSpaces": 2,
+    "estimatedPrice": 950000,
+    "description": "Award-winning architectural design with soaring ceilings, premium materials, and innovative layout. A true statement home.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "createdAt": "2024-01-05T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Sustainable Living Home",
+    "floorArea": 160,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "garageSpaces": 1,
+    "estimatedPrice": 420000,
+    "description": "Eco-friendly design with solar panels, rainwater harvesting, and sustainable materials. Perfect for environmentally conscious families.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "createdAt": "2024-01-03T11:20:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Single Level Living",
+    "floorArea": 140,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garageSpaces": 1,
+    "estimatedPrice": 385000,
+    "description": "Elegant single-level home perfect for downsizing or accessible living. Quality finishes and easy maintenance throughout.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "createdAt": "2024-01-01T08:00:00Z"
+  }
+]

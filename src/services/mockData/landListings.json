@@ -1,0 +1,91 @@
+[
+  {
+    "Id": 1,
+    "title": "Premium Auckland Section",
+    "price": 890000,
+    "location": "Papakura, Auckland",
+    "area": 650,
+    "description": "Beautiful flat section in established neighborhood with all services available. Perfect for your dream home with north-facing aspect and mature trees.",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+      "https://images.unsplash.com/photo-1464822759844-d150ad6d1dff?w=800&q=80"
+    ],
+    "ownerId": "owner1",
+    "status": "Available",
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Waterfront Land - Tauranga",
+    "price": 1250000,
+    "location": "Mount Maunganui, Tauranga",
+    "area": 800,
+    "description": "Stunning waterfront section with panoramic harbor views. Rare opportunity to build your dream home with water access and established gardens.",
+    "images": [
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+    ],
+    "ownerId": "owner2",
+    "status": "Available",
+    "createdAt": "2024-01-10T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Rural Lifestyle Block",
+    "price": 485000,
+    "location": "Clevedon, Auckland",
+    "area": 2500,
+    "description": "Peaceful rural setting with rolling hills and established fruit trees. Perfect for lifestyle living with plenty of space for gardens and animals.",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+    ],
+    "ownerId": "owner3",
+    "status": "Available",
+    "createdAt": "2024-01-08T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "City Fringe Development Site",
+    "price": 750000,
+    "location": "Newmarket, Auckland",
+    "area": 420,
+    "description": "Prime development opportunity in sought-after location. Close to transport links and amenities with development potential.",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+    ],
+    "ownerId": "owner4",
+    "status": "Available",
+    "createdAt": "2024-01-05T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Coastal Section - Wellington",
+    "price": 695000,
+    "location": "Petone, Wellington",
+    "area": 550,
+    "description": "Level building site with sea glimpses and excellent sun. Walking distance to beach and local amenities in vibrant community.",
+    "images": [
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+    ],
+    "ownerId": "owner5",
+    "status": "Available",
+    "createdAt": "2024-01-03T11:20:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "Mountain View Section",
+    "price": 420000,
+    "location": "Hanmer Springs, Canterbury",
+    "area": 1200,
+    "description": "Stunning mountain views with easy building site. Perfect for holiday home or permanent residence in popular alpine town.",
+    "images": [
+      "https://images.unsplash.com/photo-1464822759844-d150ad6d1dff?w=800&q=80",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+    ],
+    "ownerId": "owner6",
+    "status": "Available",
+    "createdAt": "2024-01-01T08:00:00Z"
+  }
+]

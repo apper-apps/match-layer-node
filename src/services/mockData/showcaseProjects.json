@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "title": "Waterfront Paradise",
+    "builderId": "JCC Build",
+    "location": "Queenstown, Otago",
+    "completionDate": "2023-11-15",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "testimonial": "Working with Match.nz was incredible. They connected us with the perfect builder who understood our vision and delivered beyond our expectations.",
+    "buildStory": "This stunning waterfront home combines luxury with functionality. The open-plan design takes full advantage of the spectacular lake views, while premium finishes create a sophisticated living environment. Built to the highest standards with sustainable materials.",
+    "createdAt": "2023-11-20T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Modern Family Haven",
+    "builderId": "Premier Homes",
+    "location": "Albany, Auckland",
+    "completionDate": "2023-09-30",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "testimonial": "The entire process was seamless. From finding the perfect land to working with an amazing builder, Match.nz made our dream home a reality.",
+    "buildStory": "A contemporary family home designed for modern living. Features include a gourmet kitchen, spacious living areas, and outdoor entertaining spaces. High-quality construction with energy-efficient systems throughout.",
+    "createdAt": "2023-10-05T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Sustainable Oasis",
+    "builderId": "Green Build Co",
+    "location": "Nelson, Tasman",
+    "completionDate": "2023-08-20",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "testimonial": "We love our eco-friendly home! The builder's expertise in sustainable construction was exactly what we needed for our environmentally conscious lifestyle.",
+    "buildStory": "This eco-friendly home showcases sustainable building practices without compromising on style. Features solar panels, rainwater collection, and locally sourced materials. A perfect example of modern sustainable living.",
+    "createdAt": "2023-08-25T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Executive Residence",
+    "builderId": "Luxury Builds Ltd",
+    "location": "Remuera, Auckland",
+    "completionDate": "2023-07-10",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "testimonial": "The attention to detail and quality of craftsmanship exceeded our expectations. Match.nz connected us with a builder who truly understood luxury construction.",
+    "buildStory": "An impressive executive home featuring premium finishes, multiple living areas, and sophisticated design elements. Built with meticulous attention to detail and the finest materials available.",
+    "createdAt": "2023-07-15T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Coastal Retreat",
+    "builderId": "Coastal Constructions",
+    "location": "Raglan, Waikato",
+    "completionDate": "2023-06-05",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "testimonial": "Living by the coast was our dream, and Match.nz helped us find the perfect combination of land and builder to make it happen.",
+    "buildStory": "A beautiful coastal home designed to withstand the marine environment while maximizing ocean views. Features weatherproof materials and design elements that complement the natural surroundings.",
+    "createdAt": "2023-06-10T11:20:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "Mountain Sanctuary",
+    "builderId": "Alpine Builders",
+    "location": "Wanaka, Otago",
+    "completionDate": "2023-05-15",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "testimonial": "Our mountain home is everything we dreamed of and more. The builder's expertise in alpine construction was invaluable.",
+    "buildStory": "This mountain sanctuary combines rustic charm with modern amenities. Built to handle alpine conditions while providing luxurious comfort for year-round living or holiday escapes.",
+    "createdAt": "2023-05-20T08:00:00Z"
+  }
+]

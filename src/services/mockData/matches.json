@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "userId": 1,
+    "landId": 1,
+    "planId": 2,
+    "notes": "Perfect combination of premium Auckland land with luxury executive home plan",
+    "createdAt": "2024-01-20T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "userId": 1,
+    "landId": 2,
+    "planId": 1,
+    "notes": "Waterfront land with modern family home - ideal for coastal living",
+    "createdAt": "2024-01-18T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "userId": 1,
+    "landId": 3,
+    "planId": 5,
+    "notes": "Rural lifestyle block with sustainable home design",
+    "createdAt": "2024-01-16T09:15:00Z"
+  }
+]

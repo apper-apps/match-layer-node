@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "type": "land",
+    "userId": 1,
+    "propertyIds": [1],
+    "message": "I'm interested in this premium Auckland section. Can you provide more details about the building covenants and services available?",
+    "recipientId": "owner1",
+    "status": "pending",
+    "createdAt": "2024-01-22T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "type": "custom-build",
+    "userId": 1,
+    "propertyIds": [],
+    "message": "Looking for a custom build in the Auckland region. Budget around $800K for a 4-bedroom family home.",
+    "recipientId": "regional-builder-auckland",
+    "status": "responded",
+    "createdAt": "2024-01-20T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "type": "showcase",
+    "userId": 1,
+    "propertyIds": [1],
+    "message": "I love this waterfront project! Can you connect me with the builder for a similar build?",
+    "recipientId": "JCC Build",
+    "status": "pending",
+    "createdAt": "2024-01-18T09:15:00Z"
+  }
+]
