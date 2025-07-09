@@ -63,12 +63,12 @@ const CustomBuild = () => {
     }
   }
 
-  const budgetRanges = [
-    { value: '300-500', label: '$300K - $500K' },
-    { value: '500-750', label: '$500K - $750K' },
-    { value: '750-1000', label: '$750K - $1M' },
-    { value: '1000-1500', label: '$1M - $1.5M' },
-    { value: '1500+', label: '$1.5M+' }
+const budgetRanges = [
+    { value: '300-500', label: '₹300K - ₹500K' },
+    { value: '500-750', label: '₹500K - ₹750K' },
+    { value: '750-1000', label: '₹750K - ₹1M' },
+    { value: '1000-1500', label: '₹1M - ₹1.5M' },
+    { value: '1500+', label: '₹1.5M+' }
   ]
 
   const timelineOptions = [

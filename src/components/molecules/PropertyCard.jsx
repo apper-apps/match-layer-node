@@ -7,14 +7,14 @@ import Button from '@/components/atoms/Button'
 import ApperIcon from '@/components/ApperIcon'
 
 const PropertyCard = ({ property, type, className, onSave, isSaved = false }) => {
-  const formatPrice = (price) => {
+const formatPrice = (price) => {
     if (price >= 1000000) {
-      return `$${(price / 1000000).toFixed(1)}M`
+      return `₹${(price / 1000000).toFixed(1)}M`
     }
     if (price >= 1000) {
-      return `$${(price / 1000).toFixed(0)}K`
+      return `₹${(price / 1000).toFixed(0)}K`
     }
-    return `$${price}`
+    return `₹${price}`
   }
 
   const getTypeInfo = () => {

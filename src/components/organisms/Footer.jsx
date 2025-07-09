@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import ApperIcon from '@/components/ApperIcon'
+import React from "react";
+import { Link } from "react-router-dom";
+import ApperIcon from "@/components/ApperIcon";
 
 const Footer = () => {
   const footerSections = [
@@ -48,14 +48,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-3 group mb-4">
+<Link to="/" className="flex items-center gap-3 group mb-4">
               <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center shadow-lg">
                 <ApperIcon name="Home" className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold gradient-text">Match.nz</span>
+              <span className="text-2xl font-bold gradient-text">Indian match</span>
             </Link>
             <p className="text-gray-400 mb-6">
-              Connect premium New Zealand land with stunning home concept plans and regional builders.
+              Connect premium Indian land with stunning home concept plans and regional builders.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
@@ -93,9 +93,9 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
+<div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-gray-400 text-sm">
-            © 2024 Match.nz. All rights reserved.
+            © 2024 Indian match. All rights reserved.
           </p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
+)
 }
 
 export default Footer

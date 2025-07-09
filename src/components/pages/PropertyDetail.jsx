@@ -58,15 +58,15 @@ const PropertyDetail = () => {
 
   const isSaved = savedProperties.some(saved => saved.Id === parseInt(id))
 
-  const formatPrice = (price) => {
+const formatPrice = (price) => {
     if (!price) return 'Price on enquiry'
     if (price >= 1000000) {
-      return `$${(price / 1000000).toFixed(1)}M`
+      return `₹${(price / 1000000).toFixed(1)}M`
     }
     if (price >= 1000) {
-      return `$${(price / 1000).toFixed(0)}K`
+      return `₹${(price / 1000).toFixed(0)}K`
     }
-    return `$${price}`
+    return `₹${price}`
   }
 
   const getPropertyTypeInfo = (property) => {
