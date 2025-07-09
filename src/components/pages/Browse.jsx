@@ -146,9 +146,9 @@ const Browse = () => {
     dispatch(toggleSavedProperty(propertyId))
   }
 
-  const handleResetFilters = () => {
+const handleResetFilters = () => {
     // Reset to default filters but keep current region
-    dispatch(updateFilter({ key: 'priceRange', value: [0, 2000000] }))
+    dispatch(updateFilter({ key: 'priceRange', value: [0, 50000000] }))
     dispatch(updateFilter({ key: 'propertyType', value: 'all' }))
     dispatch(updateFilter({ key: 'bedrooms', value: '' }))
     dispatch(updateFilter({ key: 'bathrooms', value: '' }))

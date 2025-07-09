@@ -1,10 +1,10 @@
-import React from 'react'
-import { cn } from '@/utils/cn'
-import Button from '@/components/atoms/Button'
-import Select from '@/components/atoms/Select'
-import Input from '@/components/atoms/Input'
-import Slider from '@/components/atoms/Slider'
-import ApperIcon from '@/components/ApperIcon'
+import React from "react";
+import { cn } from "@/utils/cn";
+import ApperIcon from "@/components/ApperIcon";
+import Slider from "@/components/atoms/Slider";
+import Select from "@/components/atoms/Select";
+import Button from "@/components/atoms/Button";
+import Input from "@/components/atoms/Input";
 
 const FilterSection = ({ 
   className, 
@@ -14,22 +14,25 @@ const FilterSection = ({
   isCollapsed = false,
   onToggle
 }) => {
-  const formatPrice = (price) => {
-    if (price >= 1000000) {
-      return `$${(price / 1000000).toFixed(1)}M`
+const formatPrice = (price) => {
+    if (price >= 10000000) {
+      return `₹${(price / 10000000).toFixed(1)} Cr`
+    }
+    if (price >= 100000) {
+      return `₹${(price / 100000).toFixed(1)} L`
     }
     if (price >= 1000) {
-      return `$${(price / 1000).toFixed(0)}K`
+      return `₹${(price / 1000).toFixed(0)}K`
     }
-    return `$${price}`
+    return `₹${price}`
   }
 
-  const priceRanges = [
-    { label: 'Any Price', value: [0, 2000000] },
-    { label: 'Under $500K', value: [0, 500000] },
-    { label: '$500K - $1M', value: [500000, 1000000] },
-    { label: '$1M - $1.5M', value: [1000000, 1500000] },
-    { label: '$1.5M+', value: [1500000, 2000000] }
+const priceRanges = [
+    { label: 'Any Price', value: [0, 50000000] },
+    { label: 'Under ₹25L', value: [0, 2500000] },
+    { label: '₹25L - ₹50L', value: [2500000, 5000000] },
+    { label: '₹50L - ₹1Cr', value: [5000000, 10000000] },
+    { label: '₹1Cr+', value: [10000000, 50000000] }
   ]
 
   return (
@@ -65,20 +68,20 @@ const FilterSection = ({
           <label className="block text-sm font-medium text-gray-700 mb-3">
             Region
           </label>
-          <Select
+<Select
             value={filters.region}
             onChange={(e) => onFilterChange('region', e.target.value)}
           >
-            <option value="Auckland">Auckland</option>
-            <option value="Wellington">Wellington</option>
-            <option value="Christchurch">Christchurch</option>
-            <option value="Hamilton">Hamilton</option>
-            <option value="Tauranga">Tauranga</option>
-            <option value="Dunedin">Dunedin</option>
-            <option value="Palmerston North">Palmerston North</option>
-            <option value="Nelson">Nelson</option>
-            <option value="Rotorua">Rotorua</option>
-            <option value="Whangarei">Whangarei</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Pune">Pune</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Lucknow">Lucknow</option>
           </Select>
         </div>
 
@@ -108,19 +111,19 @@ const FilterSection = ({
               <span>{formatPrice(filters.priceRange[0])}</span>
               <span>{formatPrice(filters.priceRange[1])}</span>
             </div>
-            <div className="space-y-2">
+<div className="space-y-2">
               <Slider
                 value={filters.priceRange[0]}
                 min={0}
-                max={2000000}
-                step={50000}
+                max={50000000}
+                step={500000}
                 onChange={(e) => onFilterChange('priceRange', [parseInt(e.target.value), filters.priceRange[1]])}
               />
               <Slider
                 value={filters.priceRange[1]}
                 min={0}
-                max={2000000}
-                step={50000}
+                max={50000000}
+                step={500000}
                 onChange={(e) => onFilterChange('priceRange', [filters.priceRange[0], parseInt(e.target.value)])}
               />
             </div>

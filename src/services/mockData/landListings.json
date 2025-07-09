@@ -1,11 +1,11 @@
 [
   {
     "Id": 1,
-    "title": "Premium Auckland Section",
-    "price": 890000,
-    "location": "Papakura, Auckland",
+    "title": "Premium Mumbai Plot",
+    "price": 45000000,
+    "location": "Andheri West, Mumbai",
     "area": 650,
-    "description": "Beautiful flat section in established neighborhood with all services available. Perfect for your dream home with north-facing aspect and mature trees.",
+    "description": "Beautiful flat plot in established neighborhood with all utilities available. Perfect for your dream home with good connectivity and mature trees.",
     "images": [
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
       "https://images.unsplash.com/photo-1464822759844-d150ad6d1dff?w=800&q=80"
@@ -16,11 +16,11 @@
   },
   {
     "Id": 2,
-    "title": "Waterfront Land - Tauranga",
-    "price": 1250000,
-    "location": "Mount Maunganui, Tauranga",
+    "title": "Waterfront Land - Chennai",
+    "price": 62500000,
+    "location": "ECR, Chennai",
     "area": 800,
-    "description": "Stunning waterfront section with panoramic harbor views. Rare opportunity to build your dream home with water access and established gardens.",
+    "description": "Stunning waterfront plot with panoramic sea views. Rare opportunity to build your dream home with beach access and established gardens.",
     "images": [
       "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80",
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
@@ -31,11 +31,11 @@
   },
   {
     "Id": 3,
-    "title": "Rural Lifestyle Block",
-    "price": 485000,
-    "location": "Clevedon, Auckland",
+    "title": "Farmhouse Plot - Pune",
+    "price": 24250000,
+    "location": "Lonavala Road, Pune",
     "area": 2500,
-    "description": "Peaceful rural setting with rolling hills and established fruit trees. Perfect for lifestyle living with plenty of space for gardens and animals.",
+    "description": "Peaceful rural setting with rolling hills and established fruit trees. Perfect for farmhouse living with plenty of space for gardens and livestock.",
     "images": [
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
@@ -46,11 +46,11 @@
   },
   {
     "Id": 4,
-    "title": "City Fringe Development Site",
-    "price": 750000,
-    "location": "Newmarket, Auckland",
+    "title": "IT Hub Development Site",
+    "price": 37500000,
+    "location": "Gachibowli, Hyderabad",
     "area": 420,
-    "description": "Prime development opportunity in sought-after location. Close to transport links and amenities with development potential.",
+    "description": "Prime development opportunity in IT corridor. Close to tech parks and metro connectivity with high appreciation potential.",
     "images": [
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
     ],
@@ -60,11 +60,11 @@
   },
   {
     "Id": 5,
-    "title": "Coastal Section - Wellington",
-    "price": 695000,
-    "location": "Petone, Wellington",
+    "title": "Residential Plot - Bangalore",
+    "price": 34750000,
+    "location": "Whitefield, Bangalore",
     "area": 550,
-    "description": "Level building site with sea glimpses and excellent sun. Walking distance to beach and local amenities in vibrant community.",
+    "description": "Level building site in prime residential area. Walking distance to schools and shopping centers in well-planned community.",
     "images": [
       "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80",
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
@@ -75,11 +75,11 @@
   },
   {
     "Id": 6,
-    "title": "Mountain View Section",
-    "price": 420000,
-    "location": "Hanmer Springs, Canterbury",
+    "title": "Hill Station Plot",
+    "price": 21000000,
+    "location": "Mussoorie, Dehradun",
     "area": 1200,
-    "description": "Stunning mountain views with easy building site. Perfect for holiday home or permanent residence in popular alpine town.",
+    "description": "Stunning mountain views with easy building access. Perfect for holiday home or permanent residence in popular hill station.",
     "images": [
       "https://images.unsplash.com/photo-1464822759844-d150ad6d1dff?w=800&q=80",
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"

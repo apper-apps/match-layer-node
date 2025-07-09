@@ -2,8 +2,8 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   activeFilters: {
-    region: 'Auckland',
-    priceRange: [0, 2000000],
+    region: 'Mumbai',
+    priceRange: [0, 50000000],
     propertyType: 'all',
     bedrooms: '',
     bathrooms: '',
@@ -36,7 +36,7 @@ const filtersSlice = createSlice({
     setShowShowcases: (state, action) => {
       state.showShowcases = action.payload
     },
-    resetFilters: (state) => {
+resetFilters: (state) => {
       state.activeFilters = initialState.activeFilters
     },
   },
